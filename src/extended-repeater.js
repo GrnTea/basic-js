@@ -1,5 +1,3 @@
-const CustomError = require("../extensions/custom-error");
-
 
 module.exports = function repeater(str, options) {
   str = str + '';

@@ -1,5 +1,3 @@
-const CustomError = require("../extensions/custom-error");
-
 module.exports = function getSeason(date) {
   if (date == '' || date == null || isNaN(date.getTime())) {
     return 'Unable to determine the time of year!';
